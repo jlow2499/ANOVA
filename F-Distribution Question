@@ -1,0 +1,13 @@
+Generate density plot of the F-distribution
+100 XP
+The test statistic associated with ANOVA is the F-test (or F-ratio). Remember that when a t-test 
+was used, a t-value had to be calculated and that you had to look at a sampling distribution from 
+the family of t-distributions to find the corresponding t-value. ANOVA uses the same principle, 
+but instead it applies an F-test, using a family of F-distributions. The F-distribution has a 
+different shape than the t-distribution. In this exercise, you'll generate a few density plots of the 
+F-distribution to see this.
+Instructions
+•	You can calculate the density in a certain value x of a F-distribution with parameters 
+•	(df1,df2) by using the command df(x,df1,df2). Choose for the value x a vector that
+•	 contains 100 values between 0 and 2. Make a plot of a few F-distributions by using the plot() function in combination with the lines() function, which adds - what's in a name? - lines to the preceding plot. Type ?lines in the terminal in order to get more information about this functionality. Choose the following parameters for the F-distributions: (1,1), (3,1), (6,1), (3,3), (6,3), (3,6) and (6,6). 
+•	Add a legend to your plot. The legend should be situated at the topright corner of your plot and should have the title "F distributions".
