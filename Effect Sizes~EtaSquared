@@ -1,0 +1,14 @@
+The effect sizes
+100 XP
+In the previous exercises you discovered that both simple effects are significant, so why is there 
+an interaction effect? 
+The definition of an interaction effect states that the effect of one variable changes across levels 
+of the other variable. For example, in a difficult driving condition case you might expect an 
+effect of the conversation variable, but for an easy driving condition not. 
+Unfortunately, it is not that simple. In order to really understand the effect sizes, you should 
+make use of the etaSquared() function in R: etaSquared(anova_object, anova=T)
+Instructions
+•	Calculate η2 for the easy driving condition with the help of etaSquared() and print the 
+result to the console.
+•	Calculate η2 for the difficult driving condition with the help of etaSquared() and print 
+the result to the console.
