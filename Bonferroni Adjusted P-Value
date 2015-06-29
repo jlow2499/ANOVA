@@ -1,0 +1,21 @@
+Bonferroni adjusted p-values
+100 XP
+Just like Tukey's procedure, the Bonferroni correction is a method that is used to counteract the 
+problem of inflated type I errors while engaging in multiple pairwise comparisons between 
+subgroups. Bonferroni is generally known as the most conservative method to control the 
+familywise error rate. 
+Bonferroni is based on the idea that if you test N dependent or independent hypotheses, one way 
+of maintaining the familywise error rate is to test each individual hypothesis at a statistical 
+significance level that is deflated by a factor 1n. So, for a significance level for the whole family 
+of tests of α, the Bonferroni correction would be to test each of the individual tests at a 
+significance level of alphan.
+Instructions
+•	Suppose you have a p-value of 0.005 and there are eight pairwise comparisons. Use the 
+p.adjust() function while applying the Bonferroni method to calculate the adjusted p-
+values. Assign the result to bonferroni_ex. Print the variable out in order to see how 
+much the p-values are deflated to correct for the inflated type I errors of doing a multiple 
+pairwise hypothesis test.
+•	Make use of the pairwise.t.test() function to test the pairwise comparisons 
+between your different conditions and include the Bonferroni correction in one single 
+command. Do not forget to setting the p.adjust argument in the pairwise.t.test() 
+function to "bonferroni". 
