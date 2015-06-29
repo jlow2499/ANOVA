@@ -1,0 +1,17 @@
+Calculate and interpret the results of Tukey
+100 XP
+As explained in the first exercise and as seen in the video, anytime you engage in NHST, a type I 
+error can occur. In a situation were you do multiple pairwise comparisons, the probability of type 
+I errors in the process inflates substantially. Therefore, it is better to build in adjustments to take 
+this into account. This is just what Tukey tests and other post-hoc procedures do. They adjust the 
+p-value to prevent inflation of the type I error rate. In R you can invoke Tukey's procedure via 
+the TukeyHSD() function.
+The dataset WM is still pre-loaded in the working environment. 
+Instructions
+•	Use an ANOVA analysis to compare the IQ gain across all groups and save the model in 
+the variable anova_WM.
+•	Print the summary statistics of the model to the console. Recall that you already have 
+done such an analysis in chapter 1, so you should be comfortable doing this.
+•	Conduct Tukey post-hoc tests to evaluate all pairwise comparisons.
+•	Plot the confidence intervals for the mean differences of the different pairwise 
+comparisons. 
