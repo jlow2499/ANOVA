@@ -1,0 +1,32 @@
+The systematic between groups variance
+100 XP
+To understand everything a little better, you will calculate the F-ratio of a repeated measures 
+design by yourself in the next exercises. 
+First you will need the systematic between groups variance. This one is the same as in the 
+between groups design: the variance due to grouping by conditions. Therefore, this should be 
+nothing new, but it does not hurt to refresh your memory.
+Recall that the formula for systematic sum of squares is 
+SSA=n∑(Yj−YT)2
+
+where Yj are the group means, YT is the grand mean and n is the number of items in each group 
+
+with j the number of groups.
+The formula for systematic variance is then 
+MSA=SSAdfA
+where df stands for the degrees of freedom which are set equal to the number of groups minus 
+
+one.
+You will keep working with the working memory example, the data wm is still loaded in your 
+workspace.
+Instructions
+•	Define the number of subjects n for each condition.
+•	Calculate the group means of IQ scores IQ by condition using the tapply() function. 
+The tapply() function is used to group the observations for IQ by the variable cond. 
+Subsequently, the function may calculate the mean of each group. The first argument 
+should contain the data of which you want to calculate the means and the second 
+argument should contain the data that you need to sort the different groups.
+•	You also need the grand mean y_t, so calculate this. Use the R function mean().
+•	Now you have all the ingredients to calculate the between groups sum of squares 
+ss_cond by applying the first formula.
+•	Finally you can calculate the systematic variance ms_cond using the second formula. Of 
+course you need to define the degrees of freedom df first .
